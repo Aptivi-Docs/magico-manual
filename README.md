@@ -4,9 +4,11 @@ description: Welcome to Magico!
 
 # 👋 Welcome
 
-Welcome to Magico! It's a C# library that allows you to pull some magical tricks on a variety of things, such as `IEnumerable` instances and file magic investigation.
+Welcome to Magico! It's a C# library that allows you to pull some magical tricks on a variety of things, such as `IEnumerable` instances and file magic investigation. To use this library, go to any page in the left side of the screen.
 
-To use this library, go to any page in the left side of the screen.
+{% hint style="info" %}
+You can now install this library in .NET Standard 2.0 projects.
+{% endhint %}
 
 ## Installation
 
