@@ -1,8 +1,9 @@
 ---
 description: How do I use this library?
+icon: computer
 ---
 
-# 🖥️ How to use
+# How to use
 
 This library contains a plethora of magic tools that allow you to perform various tricks. They are intended to improve your productivity.
 

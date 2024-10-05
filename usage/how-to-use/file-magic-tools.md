@@ -1,8 +1,9 @@
 ---
 description: Magic wand that points at your files.
+icon: wand-magic-sparkles
 ---
 
-# 🪄 File Magic Tools
+# File Magic Tools
 
 We have wrapped the file magic tools under a class called `MagicHandler` that is found under the `Magico.Files` namespace. It wraps the `libmagic` library with the `magic.mgc` magic file that is embedded to the library to allow systems that don't have `file` and `libmagic` installed to work, thus achieving portability.
 
