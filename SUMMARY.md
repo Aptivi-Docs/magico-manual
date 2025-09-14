@@ -10,6 +10,6 @@
 
 ***
 
-* [Report an issue](https://gitlab.com/aptivi/main/Magico/-/issues)
-* [Source code](https://gitlab.com/aptivi/main/Magico)
+* [Report an issue](https://github.com/Aptivi/Magico/issues/new)
+* [Source code](https://github.com/Aptivi/Magico)
 * [API Reference](https://aptivi.github.io/Magico)
