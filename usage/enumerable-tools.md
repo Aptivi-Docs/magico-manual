@@ -19,11 +19,13 @@ int length2 = EnumerableExtensions.Length(enumerableVar);
 ```
 {% endhint %}
 
-## `Length()`
+<details>
+
+<summary><code>Length()</code></summary>
 
 {% code title="EnumerableExtensions.cs" lineNumbers="true" %}
 ```csharp
-public static int Length(this IEnumerable enumerable)
+public static int Length(this IEnumerable enumerable) { }
 ```
 {% endcode %}
 
@@ -39,11 +41,15 @@ This extension counts the elements inside this enumerable class instance, and it
 In case this extension encounters an unknown non-generic `IEnumerable` instance, it'll attempt to generate a generic `IEnumerable<object>` class prior to counting the elements.
 {% endhint %}
 
-## `GetElementFromIndex()`
+</details>
+
+<details>
+
+<summary><code>GetElementFromIndex()</code></summary>
 
 {% code title="EnumerableExtensions.cs" lineNumbers="true" %}
 ```csharp
-public static object? GetElementFromIndex(this IEnumerable enumerable, int index)
+public static object? GetElementFromIndex(this IEnumerable enumerable, int index) { }
 ```
 {% endcode %}
 
@@ -59,25 +65,36 @@ Gets an element using the index number from the enumerable that is either generi
 In case this extension encounters an unknown non-generic `IEnumerable` instance, it'll attempt to generate a generic `IEnumerable<object>` class prior to counting the elements.
 {% endhint %}
 
-## `Zip()`
+</details>
+
+<details>
+
+<summary><code>Zip()</code></summary>
 
 {% code title="EnumerableExtensions.cs" lineNumbers="true" %}
 ```csharp
 public static IEnumerable<(TFirst First, TSecond Second)> Zip<TFirst, TSecond>(
-    this IEnumerable<TFirst> source, IEnumerable<TSecond> second)
+    this IEnumerable<TFirst> source, IEnumerable<TSecond> second) { }
 ```
 {% endcode %}
 
 This extension merges two generic `IEnumerable` instances into one.
 
-## `ToDictionarySafe()`
+</details>
+
+<details>
+
+<summary><code>ToDictionarySafe()</code></summary>
 
 {% code title="EnumerableExtensions.cs" lineNumbers="true" %}
 ```csharp
 public static Dictionary<TKey, TValue> ToDictionarySafe<TSource, TKey, TValue>(
     this IEnumerable<TSource> source, Func<TSource, TKey> keySelector, Func<TSource, TValue> valueSelector)
     where TKey : notnull
+{ }
 ```
 {% endcode %}
 
 This extension converts the source enumerable instance of the source type to a dictionary that is of a selected key type and value type. This ensures safe conversion.
+
+</details>

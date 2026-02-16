@@ -1,12 +1,12 @@
 # Table of contents
 
 * [Welcome](README.md)
+* [Installation and Upgrade](https://app.gitbook.com/s/Id4bob6wnHvpX4zbVVtI/csharp-libraries/installation-and-upgrade)
 
 ## Usage
 
-* [How to use](usage/how-to-use/README.md)
-  * [Enumerable Tools](usage/how-to-use/enumerable-tools.md)
-  * [File Magic Tools](usage/how-to-use/file-magic-tools.md)
+* [Enumerable Tools](usage/enumerable-tools.md)
+* [File Magic Tools](usage/file-magic-tools.md)
 
 ***
 
