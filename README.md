@@ -12,6 +12,18 @@ Magico is a C# library that allows you to pull some magical tricks on a variety 
 Below is the release history of the library:
 
 {% updates format="full" %}
+{% update date="2026-04-19" %}
+## <mark style="color:$primary;">v1.7.2</mark>
+
+<mark style="color:yellow;">Updated SpecProbe</mark>
+{% endupdate %}
+
+{% update date="2026-04-14" %}
+## <mark style="color:$primary;">v1.7.1</mark>
+
+<mark style="color:green;">Added initial FreeBSD support</mark>
+{% endupdate %}
+
 {% update date="2026-02-15" %}
 ## <mark style="color:$primary;">v1.7.0.1</mark>
 
